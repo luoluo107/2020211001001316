@@ -1,5 +1,6 @@
 package com.kongxiangwang.week4;
 
+import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -16,10 +17,16 @@ import java.sql.SQLException;
 public class JDBCdemoServlet extends HttpServlet {
     Connection con = null;
     public void init() throws ServletException {
-        String driver = "com.mysql.cj.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/db2024?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true";
-        String username = "root";
-        String password = "123456";
+//        String driver = "com.mysql.cj.jdbc.Driver";
+//        String url = "jdbc:mysql://localhost:3306/db2024?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true";
+//        String username = "root";
+//        String password = "123456";
+
+        ServletConfig config = getServletConfig();
+        String driver = config.getInitParameter("driver");
+        String url = config.getInitParameter("url");
+        String username = config.getInitParameter("username");
+        String password = config.getInitParameter("password");
 
         try {
             Class.forName(driver);

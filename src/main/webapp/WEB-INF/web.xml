@@ -21,4 +21,20 @@
         <servlet-name>JDBCdemoServlet</servlet-name>
         <url-pattern>/jdbc</url-pattern>
     </servlet-mapping>
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/db2024?characterEncoding=utf8</param-value>
+    </context-param>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>123456</param-value>
+    </context-param>
 </web-app>
