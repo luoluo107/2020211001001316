@@ -1,4 +1,4 @@
-package com.example.kongxiangwang;
+package com.example.week3;
 
 import java.io.*;
 

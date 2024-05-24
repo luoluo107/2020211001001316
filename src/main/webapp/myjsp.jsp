@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <%@include file="header.jsp"%>
 
     <title>Title</title>
 </head>
@@ -26,5 +27,10 @@
     </label><br/>
     <button>submit</button>
 </form>
+
+    <div>don't have account?
+        <a href="register.jsp">click here！</a>
+    </div>
+<%@include file="footer.jsp"%>
 </body>
 </html>

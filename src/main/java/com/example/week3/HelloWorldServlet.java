@@ -1,4 +1,4 @@
-package com.example.kongxiangwang;
+package com.example.week3;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
