@@ -21,20 +21,21 @@ public class JDBCdemoServlet extends HttpServlet {
 //        String url = "jdbc:mysql://localhost:3306/db2024?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true";
 //        String username = "root";
 //        String password = "123456";
-
-        ServletConfig config = getServletConfig();
-        String driver = config.getInitParameter("driver");
-        String url = config.getInitParameter("url");
-        String username = config.getInitParameter("username");
-        String password = config.getInitParameter("password");
-
-        try {
-            Class.forName(driver);
-            con = DriverManager.getConnection(url, username, password);
-            System.out.println(con+"init()...");
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-        }
+//
+//        ServletConfig config = getServletConfig();
+//        String driver = config.getInitParameter("driver");
+//        String url = config.getInitParameter("url");
+//        String username = config.getInitParameter("username");
+//        String password = config.getInitParameter("password");
+//
+//        try {
+//            Class.forName(driver);
+//            con = DriverManager.getConnection(url, username, password);
+//            System.out.println(con+"init()...");
+//        } catch (ClassNotFoundException | SQLException e) {
+//            e.printStackTrace();
+//        }
+        con = (Connection) getServletContext().getAttribute("con");
     }
 
 

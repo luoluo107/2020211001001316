@@ -10,15 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868df0a2-8227-4f3c-9dd1-02aabaad1105" name="更改" comment="week5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/week5/loginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/week6/SearchEngineServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/week6/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kongxiangwang/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/week3/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kongxiangwang/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/week3/HelloWorldServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/week2/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myjsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myjsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kongxiangwang/week4/JDBCdemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kongxiangwang/week4/JDBCdemoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/week2/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/week2/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,8 @@
       <workItem from="1714293090377" duration="12000" />
       <workItem from="1716095299032" duration="4288000" />
       <workItem from="1716198955372" duration="5000" />
-      <workItem from="1716563426278" duration="2181000" />
+      <workItem from="1716563426278" duration="2918000" />
+      <workItem from="1716794313175" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="kxw">
       <created>1714145360796</created>
@@ -233,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716567562876</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="week5">
+      <created>1716567726036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716567726036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
