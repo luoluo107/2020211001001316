@@ -19,9 +19,17 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>com.week5.registerServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>SearchEngineServlet</servlet-name>
         <servlet-class>com.week6.SearchEngineServlet</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>SearchEngineServlet</servlet-name>
         <url-pattern>/search</url-pattern>
